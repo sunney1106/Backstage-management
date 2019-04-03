@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
-import 'antd/dist/antd.css'
-import "./components/manage.css"
 import Navleft from "./components/navleft/navleft"
-// import Management from "./components/manage"
+import Home from "./components/containerright/index"
+import "@/resource/style/navleft/navleft.css"
+import '@/resource/style/containerright/index.css'
+import 'antd/dist/antd.css'
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Navleft></Navleft>
-        {/* <Management></Management> */}
+       <Navleft></Navleft>
+      
+       <Home></Home>
+        
       </div>
     );
   }
