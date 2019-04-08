@@ -1,0 +1,29 @@
+.navleft{
+    float:left;
+    width:256px;
+    .navHead{
+        background:#001529;
+        height:81px;
+        img{
+            display:block;
+            margin-left:15px;
+            float:left;
+            animation: App-logo-spin infinite 20s linear; 
+            @keyframes App-logo-spin{
+                0% {
+                    transform: rotate(0deg); 
+                }
+                100% {
+                    transform: rotate(360deg); 
+                }
+            }
+        }
+        p{
+            display:block;
+            font-size:20px;
+            color:#fff;
+            color: rgba(255, 255, 255, 0.65);
+            padding-top:25px;
+        }
+    };
+}
