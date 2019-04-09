@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Menu, Icon } from 'antd';
 import NavList from '@/util/navlist';
 import logo from '@/resource/img/logo.svg';
@@ -34,7 +34,6 @@ class Navleft extends  Component{
     }
     render(){
         return (
-            <Router>
             <div className="navleft">
                 <div className="navHead" style={{background:"#001529"}}>
                     <img src={logo} className="App-logo" alt="logo" style={{width:60,height:60}}/>
@@ -46,7 +45,6 @@ class Navleft extends  Component{
                     </Menu>
                 </div>
             </div>
-            </Router>
         )
     }
 }

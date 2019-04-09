@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router ,Route,Redirect} from 'react-router-dom';
-import App from './App'
+import IRouter from './router/router'
 
 
 ReactDOM.render(
-    <Router>
-        <Route path="/admin/" component={App} />
-    </Router>
+    <IRouter></IRouter>
     , document.getElementById('root'));
 
 

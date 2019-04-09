@@ -1,0 +1,19 @@
+/* .ant-card-head-title{
+  color:
+} */
+.login{
+    margin:200px 500px 0 800px;
+    width:400px;
+    box-shadow:0 0 6px;
+    padding:50px;
+    background:url(../img/background.jpg) no-repeat;
+}
+.login-form {
+    max-width: 800px;
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .login-form-button {
+    width: 100%;
+  }
