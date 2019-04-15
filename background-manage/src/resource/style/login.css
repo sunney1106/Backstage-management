@@ -1,12 +1,15 @@
-/* .ant-card-head-title{
-  color:
-} */
 .login{
     margin:200px 500px 0 800px;
     width:400px;
     box-shadow:0 0 6px;
     padding:50px;
-    background:url(../img/background.jpg) no-repeat;
+    /* background:url(../img/background.jpg) no-repeat; */
+}
+.login_header{
+  height:60px;
+  font-size:30px;
+  font-weight:900;
+  color:#d9d9d9;
 }
 .login-form {
     max-width: 800px;
